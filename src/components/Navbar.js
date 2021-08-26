@@ -20,6 +20,36 @@ function NavBar() {
                     <div className="menu-icon" onClick={handleClick}>
                         { click ? <FaTimes /> : <FaBars /> }
                     </div>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className="nav-item">
+                            <Link to='/' className="nav-links">
+                                Inicio
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/services' className="nav-links">
+                                Servicios
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/products' className="nav-links">
+                                Productos
+                            </Link>
+                        </li>
+                        <li className="nav-btn">
+                            { button ? (
+                                <Link to='/sign-up' className="btn-link">
+                                    <Button buttonStyle='btn--outline'>Registrarse</Button>
+                                </Link>
+                            ) : (
+                                <Link to='/sign-up' className="btn-link">
+                                    <Button buttonStyle='btn--outline'
+                                            buttonSize='btn--mobile'
+                                    >Registrarse</Button>
+                                </Link>
+                            ) }
+                        </li>
+                    </ul>
                 </div>
             </div>  
         </>
