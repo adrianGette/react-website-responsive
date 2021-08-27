@@ -63,18 +63,18 @@
 
 .btn--wide:hover {
   color: #fff;
-  background-color: #f00946;
+  background-color: #fa2c83;
   transition: all 0.2s ease-out;
 }
 
 .blue {
-  background-color: #276afb;
+  background-color: #824cc3;
   color: #fff;
   border: none;
 }
 
 .red {
-  background-color: #f00946;
+  background-color: #fa2c83;
   color: #fff;
   border: none;
 }
