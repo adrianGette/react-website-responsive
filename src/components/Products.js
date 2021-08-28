@@ -4,6 +4,7 @@ import { IoDesktopOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import { IconContext } from 'react-icons/lib';
+import './Products.css';
 
 function Products() {
     return (
@@ -18,7 +19,7 @@ function Products() {
                                     <div className="icon">
                                         <ImMobile />
                                     </div>
-                                    <h3>Aplicación Móvil</h3>
+                                    <h3>Mobile Wallet</h3>
                                     <h4>Gratis</h4>
                                     <p>Para siempre</p>
                                     <ul className="products__container-features">
@@ -26,8 +27,8 @@ function Products() {
                                         <li>2% Cash Back</li>
                                         <li>Android / IOS</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='primary'>
-                                        Descarguela Ahora
+                                    <Button buttonSize='btn--wide' buttonColor='blue'>
+                                        Descargar
                                     </Button>
                                 </div>
                             </Link>
@@ -36,7 +37,7 @@ function Products() {
                                     <div className="icon">
                                         <IoDesktopOutline />
                                     </div>
-                                    <h3>Aplicación de Escritorio</h3>
+                                    <h3>Desktop Wallet</h3>
                                     <h4>Gratis</h4>
                                     <p>Para siempre</p>
                                     <ul className="products__container-features">
@@ -44,8 +45,8 @@ function Products() {
                                         <li>2% Cash Back</li>
                                         <li>Linux / Mac / Windows</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='primary'>
-                                        Descarguela Ahora
+                                    <Button buttonSize='btn--wide' buttonColor='blue'>
+                                        Descargar
                                     </Button>
                                 </div>
                             </Link>
